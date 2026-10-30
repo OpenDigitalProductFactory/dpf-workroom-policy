@@ -1,0 +1,24 @@
+{
+  "name": "@opendigitalproductfactory/dpf-workroom-policy",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Workroom posture, autonomy and attention policy",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenDigitalProductFactory/dpf-workroom-policy.git"
+  },
+  "engines": {
+    "node": "24.16.0"
+  },
+  "scripts": {
+    "verify:source": "node scripts/verify-provenance.mjs",
+    "test": "node examples/workroom-policies/run.mjs",
+    "check": "npm run verify:source && npm test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "6.0.3"
+  }
+}

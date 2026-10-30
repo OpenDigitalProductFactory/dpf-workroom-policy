@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "component": "dpf-workroom-policy",
+  "sourceRepository": "https://github.com/OpenDigitalProductFactory/opendigitalproductfactory",
+  "sourceRevision": "56f3a5d2d57d751eb3ac435dcca4133c5ff46686",
+  "mergedPR": "https://github.com/OpenDigitalProductFactory/opendigitalproductfactory/pull/6724",
+  "license": "Apache-2.0",
+  "qualification": "Synthetic policy and local host-boundary fixture only; no authenticated authority, financial reservation, production scheduler, concurrent database, tool execution or runtime/browser qualification.",
+  "publication": "public source seed; no package release or consumer acceptance",
+  "files": [
+    {
+      "path": "LICENSE",
+      "upstreamPath": "LICENSE",
+      "gitBlob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "NOTICE",
+      "upstreamPath": "NOTICE",
+      "gitBlob": "54507a7c56acd4bcba6868607038f1db6b4e1da4",
+      "sha256": "edca2f3be891d8dc17e077eee49e979fd8348ae50eb6cba7700257ce87e5f650",
+      "bytes": 569,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/_shared/read-regular-file.mjs",
+      "upstreamPath": "examples/_shared/read-regular-file.mjs",
+      "gitBlob": "c07131eb8b93407b1eb392085e9d927f1440fe2d",
+      "sha256": "cc3b57089dd6d732706b7651a9d3a6ca586c6c2b02adc9db5d3226d96993e5f3",
+      "bytes": 797,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/LICENSE",
+      "upstreamPath": "examples/workroom-policies/LICENSE",
+      "gitBlob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/NOTICE",
+      "upstreamPath": "examples/workroom-policies/NOTICE",
+      "gitBlob": "54507a7c56acd4bcba6868607038f1db6b4e1da4",
+      "sha256": "edca2f3be891d8dc17e077eee49e979fd8348ae50eb6cba7700257ce87e5f650",
+      "bytes": 569,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/README.md",
+      "upstreamPath": "examples/workroom-policies/README.md",
+      "gitBlob": "f426887dd6e4ae1523815f20501d954094a20dab",
+      "sha256": "00204b9473565d8878d4701bece2b5e3b54164245865f782663845527404a98e",
+      "bytes": 5594,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/closure.json",
+      "upstreamPath": "examples/workroom-policies/closure.json",
+      "gitBlob": "a4ceb617e5b52ea0e9c05909ef711e6a64d16997",
+      "sha256": "b55afea1b208a768c7ccda3635b0a34cdf2a7dda7f0805ab8a33b33dda880535",
+      "bytes": 2157,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/run.mjs",
+      "upstreamPath": "examples/workroom-policies/run.mjs",
+      "gitBlob": "4d6d11a75720f4bb80ac3c0a706f7e948fc3d272",
+      "sha256": "800fde63b15c19fbbbb24eb4abe153834613e64619fc125d6df6106b6b125040",
+      "bytes": 6000,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/src/host.ts",
+      "upstreamPath": "examples/workroom-policies/src/host.ts",
+      "gitBlob": "423313d25344fe693906d41a8ff8ec4e9fd56a9a",
+      "sha256": "e80f2a21a80c29d99c8f7e8a44bfc8506a89f45031db91a8b721e2be39a3dcfa",
+      "bytes": 7002,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/src/model.ts",
+      "upstreamPath": "examples/workroom-policies/src/model.ts",
+      "gitBlob": "0a88dd93b77efb87daf901129c0f578845f7a0c1",
+      "sha256": "5e51152bbc9391ddd5ae97f682ff7886df50ee832df705a2cbcfbfbeaacd3d3f",
+      "bytes": 1654,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/src/smoke.ts",
+      "upstreamPath": "examples/workroom-policies/src/smoke.ts",
+      "gitBlob": "a442c762c4863b469c4bc8b4d2262829c364d079",
+      "sha256": "95fd77f91a2555413a19c50be8da6c66efc4650dd058e4f004ea3548aa376767",
+      "bytes": 18074,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/tsconfig.json",
+      "upstreamPath": "examples/workroom-policies/tsconfig.json",
+      "gitBlob": "498ff1c3c22aabc7d17ad5bcb4cd6836967ec3d8",
+      "sha256": "3c3a6a95331fc456204200654124fe4e9c2c3a80b2acbfafbf15ce3a4d282bd8",
+      "bytes": 362,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "examples/workroom-policies/verification.json",
+      "upstreamPath": "examples/workroom-policies/verification.json",
+      "gitBlob": "173421a34f188cff2855513bd20e27bc02011e41",
+      "sha256": "c85a4c30ab18289959c816826b3c99d773b6a79450b127739f000438e319bea6",
+      "bytes": 14217,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/action-result.ts",
+      "upstreamPath": "packages/validators/src/action-result.ts",
+      "gitBlob": "e99c49f4b9e2134d6a3ffe3b64a112c08bef1a27",
+      "sha256": "49d54cec031b2e076f7701ed580394c580b152443a001dfd954da2872a437264",
+      "bytes": 2165,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/decision-scopes.ts",
+      "upstreamPath": "packages/validators/src/decision-scopes.ts",
+      "gitBlob": "7c672a1b3d2fcbe44993108f66683916438d1a4c",
+      "sha256": "17dea1d50d55298ccbca2259c3e8a8953fdf102bb07374db91b8c4036403e349",
+      "bytes": 210,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/gpp/diagnostics.ts",
+      "upstreamPath": "packages/validators/src/gpp/diagnostics.ts",
+      "gitBlob": "ae0ac35d7fa60da8ecec7682977b52668b9b26a5",
+      "sha256": "700b6de020fe0f2faae7ca68aa3cca967d8abfab82a33fdba2ca264a441ba854",
+      "bytes": 6410,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/gpp/element-ids.ts",
+      "upstreamPath": "packages/validators/src/gpp/element-ids.ts",
+      "gitBlob": "14bd0c4fff2570154a7805343bbe7b89a57d0595",
+      "sha256": "db60fdf48eea6c9f050b7c26604be94337ece8a18786f75819802d03e20e8837",
+      "bytes": 7556,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/gpp/executable-constructs.ts",
+      "upstreamPath": "packages/validators/src/gpp/executable-constructs.ts",
+      "gitBlob": "8e30c89e63bb77d934f1257679d5dd69a9bd81af",
+      "sha256": "7235b0b1127c475fd2edcb3255b4f8f143715aa853b19f1e7cfdb66e6bb4a323",
+      "bytes": 4966,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/gpp/work-shape-contracts.ts",
+      "upstreamPath": "packages/validators/src/gpp/work-shape-contracts.ts",
+      "gitBlob": "ac645565d0dd44f6c49a9f8eb828c01e2b881a2c",
+      "sha256": "da70bc93e8de0773309c4772aaf55f9384b76e6ca444484f3ab8fbd1c0725375",
+      "bytes": 10156,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/gpp/work-vocabulary.ts",
+      "upstreamPath": "packages/validators/src/gpp/work-vocabulary.ts",
+      "gitBlob": "ed5782a0d58d5aa0626b08083728160e3d4c7871",
+      "sha256": "f2c2659235b4ccc230288955a50b78f8b50b4dad4dff4cc2a0024c83a2b615ee",
+      "bytes": 2653,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/guards.ts",
+      "upstreamPath": "packages/validators/src/guards.ts",
+      "gitBlob": "45061a8cede89917d8e1f43557e3ca4050f46b37",
+      "sha256": "43cd3cc2d2956e8b9b7059154bb23c52084905f9f30cbccc5244752df86531ed",
+      "bytes": 722,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/outcome-disposition.ts",
+      "upstreamPath": "packages/validators/src/outcome-disposition.ts",
+      "gitBlob": "d03f16f5e8bfd271df4b3c74fc46ebc0ea3508f0",
+      "sha256": "5fbc64d38de9e49999c882c1da540b513885d2abfb6c3c964a260475128bf359",
+      "bytes": 4660,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/policy-types.ts",
+      "upstreamPath": "packages/validators/src/policy-types.ts",
+      "gitBlob": "d7a40ef810ca596cfc9dd953358c31f32a273076",
+      "sha256": "f1efccdecba36e77b4d83cbfdeec03d16520b0dc799501a4c5374c12591a9cc8",
+      "bytes": 982,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/clock-types.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/clock-types.ts",
+      "gitBlob": "b73dd6d7b7531e170baa17d59cfbfd9ef7a0b08f",
+      "sha256": "51a937b3746d3ca7d1fd4092e12a8fee1bcbcf35090b5f9afba866cecdc0a5a6",
+      "bytes": 493,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/delegated-posture.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/delegated-posture.ts",
+      "gitBlob": "5eb75984fc65fb268cfcdb0ca7cdf6841763eaf8",
+      "sha256": "c2631242c0766b08de718fd9682d6b96cb7538b9e532c48c6f1aa6dcf71a5891",
+      "bytes": 6199,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/derive.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/derive.ts",
+      "gitBlob": "599e752f5b412dfadcf6123708a4d6aa37b011ac",
+      "sha256": "bac7f754192ab3dd5a76540007b21b1c89a93f382934d3499914f8e261b2662b",
+      "bytes": 11857,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/drive-deadlines.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/drive-deadlines.ts",
+      "gitBlob": "14f22bcb7c2eec13e263ff9ec531b7528b47b098",
+      "sha256": "97474e2d849d84590176291a426abe4bb0750ef81b432287b0e6bd4e5414e85b",
+      "bytes": 8680,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/drive-hold.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/drive-hold.ts",
+      "gitBlob": "fbd5595b68fb7f3deb7b2b43e44b55cb66ae01aa",
+      "sha256": "21580d6ba1969576e004aafa5e3fa3c5e265ab0f8127b43db031baa4a0a25f5f",
+      "bytes": 5195,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/funded-author.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/funded-author.ts",
+      "gitBlob": "c940ed42965d9cb0a87c174c7989dc64c44a2034",
+      "sha256": "817e11b23f73ed834eeb292c14624674da01c3822be8dd914db7e7e5f17f548f",
+      "bytes": 1567,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/hitl-join.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/hitl-join.ts",
+      "gitBlob": "b2dc4ca1d03c7266c1bee184980c02f4f4a7aed0",
+      "sha256": "27ff26d6e6d93a46de92224aa5d1ddef0049dde596db6566375ef06693823846",
+      "bytes": 7263,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/index.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/index.ts",
+      "gitBlob": "60026f7884d54d6509e1bf60949b4be53d95002b",
+      "sha256": "74f2ff318245746fce94ea63c581c7e23f051cfa259064a62d2a39b17bf457b9",
+      "bytes": 649,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/proactivity-resolver.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/proactivity-resolver.ts",
+      "gitBlob": "86762c0725e14a50329a2b52aa2b5e2fe58c01de",
+      "sha256": "3193471f3407f57da1274b36dee49f7a893e5f9253eb17e42e2eed1a1652e659",
+      "bytes": 11055,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/proactivity-types.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/proactivity-types.ts",
+      "gitBlob": "69558149c5bbdadd86e38e97c738800882ccb1f9",
+      "sha256": "6ed07eaf663588b2ffc03563d5a4804c871a4bebd8eede3d7eb9f037c23e9b6f",
+      "bytes": 3757,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/provenance.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/provenance.ts",
+      "gitBlob": "ef6da5852affad0db66f6617a138d66f230d7ceb",
+      "sha256": "9d31fe5902aa98a77865f8b22c8644679c4a3f983f810a2e7a941c52502ff9b2",
+      "bytes": 7351,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/resolve.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/resolve.ts",
+      "gitBlob": "78c1e25362f09b8ce9242763bbcfdfc890f6e162",
+      "sha256": "e000e6c0ac9c08862fd7e5e1be3ace84be2e308f66d7d1ac658d3828ce675d2a",
+      "bytes": 17165,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/scheduled-work-trigger.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/scheduled-work-trigger.ts",
+      "gitBlob": "743e3d91e95551c030a55a5ecc337a843ca66524",
+      "sha256": "ec6c9af098d0592dd33ec1021e857fb18eceacdb8b98069065ca9e22686ca2e9",
+      "bytes": 5294,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/temporal-band.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/temporal-band.ts",
+      "gitBlob": "a8061d7ce63bf7e06922a3f65e0e0170f2d0e2a1",
+      "sha256": "28cd5b50cae00565b129297a9903a65f5ed28221a58772702e5edb144d107f4e",
+      "bytes": 11300,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom-policy/tighten.ts",
+      "upstreamPath": "packages/validators/src/workroom-policy/tighten.ts",
+      "gitBlob": "7318cfbf955cd9a61eef79c1e499d36ae17fc786",
+      "sha256": "70390d112deb4e5c3f54082c34a21af3a8484a8a7f14fd73a006f42679ef67d3",
+      "bytes": 4357,
+      "role": "component-source-or-example"
+    },
+    {
+      "path": "packages/validators/src/workroom/flow-graph.ts",
+      "upstreamPath": "packages/validators/src/workroom/flow-graph.ts",
+      "gitBlob": "30b1648821b06b19701194ea313f0a74b0287a6f",
+      "sha256": "3c54bbc4d1c5ae9e191ce742a0048b72e8b8ce18661fa6e28d6aac528ccb1fbe",
+      "bytes": 10346,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/workroom/index.ts",
+      "upstreamPath": "packages/validators/src/workroom/index.ts",
+      "gitBlob": "7f3a628225c35c8a22664b737f7110f1ff75e088",
+      "sha256": "a8f16c505200b387d53f89248b6c21d2f4075823f77cf6560464fc3c643ad0b0",
+      "bytes": 184,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/workroom/marking.ts",
+      "upstreamPath": "packages/validators/src/workroom/marking.ts",
+      "gitBlob": "6047b71183ee937b7a2fa1f98f6cbdf558c4a4d4",
+      "sha256": "94329674f34c7efe9de93ec0d189f792a2a7f1b19336084e918a0259d0746077",
+      "bytes": 30771,
+      "role": "frozen-compatibility-dependency"
+    },
+    {
+      "path": "packages/validators/src/workroom/receipts.ts",
+      "upstreamPath": "packages/validators/src/workroom/receipts.ts",
+      "gitBlob": "d88bb0451512476a713fa58fbefdf897e6e467d7",
+      "sha256": "0354b7f0fdd90ecb3fedb459a99194642c9d0e0b01472a53a996f029e8c89dcc",
+      "bytes": 4263,
+      "role": "frozen-compatibility-dependency"
+    }
+  ]
+}
